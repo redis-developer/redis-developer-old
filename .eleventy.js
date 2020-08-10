@@ -1,3 +1,3 @@
 return {
-    pathPrefix: "/site-test/"
+    pathPrefix: "/test-site/"
 }
