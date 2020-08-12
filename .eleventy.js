@@ -1,2 +1,3 @@
 return {
+    pathPrefix : "/redis-developer/"
 }
