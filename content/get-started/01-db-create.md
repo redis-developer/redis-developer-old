@@ -3,9 +3,9 @@ layout: layout_content.html
 title: Redis Database Creation
 ---
 
-# DB Creation
+# How to create a Redis Database 
 
-This page explain the db creation process.
+This page explain the steo by step Redis database creation process for all the different options listed below:
 
 
 ## Cloud
