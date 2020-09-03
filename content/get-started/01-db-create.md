@@ -110,10 +110,14 @@ In the web browser on the host machine, go to https://localhost:8443 to see the 
 
 - Click Show advanced options and, in the Endpoint port number, enter 12000 for the port number.If you cannot activate the database because of a memory limitation, make sure that Docker has enough memory allocated in the Advanced section of Docker Settings.
 
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud18.png)
+
 If port 12000 is not available, enter any available port number between 10000 to 19999 and connect to the database with that port number.
 
 
 The database configuration is shown. When you see a green check mark, the database is activated and ready for you to use.
+
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud20.png)
 
 You now have a Redis database!
 
