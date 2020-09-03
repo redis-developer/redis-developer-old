@@ -38,12 +38,12 @@ This page explain the db creation process.
 
 7.  Enter a name for the database of your choice
 
-
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud7.png)
+
 
 8. Click "Activate" and wait for few seconds till it gets activated. Once fully activated, you will see the database endpoints as shown below:
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud7.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud8.png)
 
 
 ## Docker
