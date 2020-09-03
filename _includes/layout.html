@@ -20,12 +20,11 @@ title: Redis Developer
   </head>
   <body>
 
+    
     <header>
+      <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">
-            <img src="{{'/images/logo/logo_small.png' | url }}" width=40>
-            {{title}}
-        </a>
+        <a class="navbar-brand" href="#">Fixed navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,19 +48,20 @@ title: Redis Developer
       </nav>
     </header>
 
-    <main role="main">
 
+    <main role="main" class="container">
       {{ content }}
+    </main> 
 
 
 
           <!-- FOOTER -->
           <footer class="container">
             <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <p>&copy; 2011-2020 RedisLabs. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
           </footer>
-        </main>
-    
+
+          
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
