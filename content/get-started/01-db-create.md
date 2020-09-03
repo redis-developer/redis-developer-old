@@ -10,13 +10,10 @@ This page explain the db creation process.
 
 ## Cloud
 
-### Creating Redis Cloud Account </summary>
-  To get started with Redis Cloud Essential, visit https://redislabs.com/try-redis-modules-for-free and fill out the details:
+- To get started with Redis Cloud Essential, visit https://redislabs.com/try-redis-modules-for-free and fill out the details:
 
+- Add Your Redis Enterprise Cloud Essentials subscription 
   
-  ### Adding Your Redis Enterprise Cloud Essentials subscription </summary>
-  To get started with Redis Cloud Essential, visit https://redislabs.com/try-redis-modules-for-free and fill out the details:
-
   
 
 
