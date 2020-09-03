@@ -123,12 +123,10 @@ You now have a Redis database!
 
 
 
-##
-
-Redis Enterprise
+# Redis Enterprise
 
 
-## From Sources
+# From Sources
 
 
 
