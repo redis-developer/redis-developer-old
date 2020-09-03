@@ -18,7 +18,28 @@ This page explain the db creation process.
 
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud2.png)
 
-3. Go ahead and create a new database with the name of your choice.
+3. For the cloud provider, select Amazon AWS
+
+
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud4.png)
+
+4. For the region where you want to use the subscription, select ap-south-1. Please note that it’s currently available only in the AWS/Mumbai 
+
+
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud5.png)
+
+5. In the Redis Enterprise Cloud service levels, select the Redis Cloud Essentials 30MB/1 Database level
+
+
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud6.png)
+
+6. Click Create
+
+
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud7.png)
+
+3. After you create a subscription, you can create a database. As shown below, enter a name for the database of your choice
+
 
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud3.png)
 
