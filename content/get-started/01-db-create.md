@@ -18,7 +18,7 @@ This page explain the db creation process.
 
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud2.png)
 
-- Go ahead and create a new database with the name of your choice.
+3. Go ahead and create a new database with the name of your choice.
 
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud3.png)
 
