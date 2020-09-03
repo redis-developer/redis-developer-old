@@ -8,7 +8,7 @@ title: Redis Database Creation
 This page explain the steo by step Redis database creation process for all the different options listed below:
 
 
-## Cloud
+# Cloud
 
 1. You will have to create Redis Cloud account by visiting [link](https://redislabs.com/try-redis-modules-for-free) below. Once you click on “Get Started”, you will receive an email with a link to activate your account and complete your signup process.
 
@@ -46,7 +46,7 @@ This page explain the steo by step Redis database creation process for all the d
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud8.png)
 
 
-## Docker
+# Docker
 
 ### Install Docker Engine
 
