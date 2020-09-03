@@ -20,11 +20,11 @@ This page explain the db creation process.
 1. In the Redis Enterprise Cloud menu, click Subscriptions
 2. At the bottom of the page, click the “+” sign.
 
-[!My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud2.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud2.png)
 
 3. Select your subscription configuration:
 
-[!My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud3.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud3.png)
 
 
 
