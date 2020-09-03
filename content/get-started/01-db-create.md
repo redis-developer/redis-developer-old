@@ -33,15 +33,13 @@ This page explain the db creation process.
 
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud6.png)
 
-6. Click Create
+6. Click Create. After you create a subscription, you can create a database:
+
+
+7.  Enter a name for the database of your choice
 
 
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud7.png)
-
-3. After you create a subscription, you can create a database. As shown below, enter a name for the database of your choice
-
-
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud3.png)
 
 
 
