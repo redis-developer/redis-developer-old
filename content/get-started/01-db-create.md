@@ -14,10 +14,7 @@ This page explain the db creation process.
 
 [![](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud.png)](https://redislabs.com/try-redis-modules-for-free)
 
-2.  Adding Your Redis Enterprise Cloud Essentials subscription
-
--  In the Redis Enterprise Cloud menu, click Subscriptions
--  At the bottom of the page, click the “+” sign.
+2.  Next, you will have to add  Redis Enterprise Cloud Essentials subscription. In the Redis Enterprise Cloud menu, click Subscriptions. At the bottom of the page, click the “+” sign.
 
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud2.png)
 
