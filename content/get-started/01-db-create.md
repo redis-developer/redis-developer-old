@@ -48,7 +48,7 @@ This page explain the db creation process.
 
 ## Docker
 
-- Install Docker Engine
+### Install Docker Engine
 
 Go to the Docker installation page for your operating system for detailed instructions about installing Docker Engine:
 
@@ -62,7 +62,7 @@ curl -fsSL https://get.docker.com/ | sh
 
 Refer https://docs.docker.com/docker-for-mac/install/ to install Docker Desktop for Mac.
 
-- Run the container
+### Run the container
 
 To pull and start the Redis Enterprise Software Docker container, run this docker run command in the terminal or command-line for your operating system.
 
@@ -74,7 +74,7 @@ docker run -d --cap-add sys_resource --name rp -p 8443:8443 -p 9443:9443 -p 1200
 
 The Docker container with RS runs on your localhost with port 8443 open for HTTPS connections, 9443 for REST API connections, and port 12000 open for redis client connections. You can publish other ports with -p <host_port>:<container_port>.
 
-- Set up a cluster
+### Set up a cluster
 
 In the web browser on the host machine, go to https://localhost:8443 to see the Redis Enterprise Software web console.
 
