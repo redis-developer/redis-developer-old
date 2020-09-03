@@ -103,13 +103,12 @@ In the web browser on the host machine, go to https://localhost:8443 to see the 
 
 - Select “redis database” and the “single region” deployment, and click Next.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud15.png)
-
 - Enter a database name such as demodb.
 
 ![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud16.png)
 
-- Click Show advanced options and, in the Endpoint port number, enter 12000 for the port number.
+
+- Click Show advanced options and, in the Endpoint port number, enter 12000 for the port number.If you cannot activate the database because of a memory limitation, make sure that Docker has enough memory allocated in the Advanced section of Docker Settings.
 
 If port 12000 is not available, enter any available port number between 10000 to 19999 and connect to the database with that port number.
 
