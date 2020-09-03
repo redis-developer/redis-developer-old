@@ -78,36 +78,36 @@ The Docker container with RS runs on your localhost with port 8443 open for HTTP
 
 In the web browser on the host machine, go to https://localhost:8443 to see the Redis Enterprise Software web console.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud9.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud10.png)
 
 - In the Node Configuration settings, enter a cluster FQDN such as cluster.local. Then click Next button.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud10.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud11.png)
 
 
 - Enter your license key, if you have one. If not, click the Next button to use the trial version.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud11.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud12.png)
 
 - Enter an email and password for the admin account for the web console.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud12.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud13.png)
 
 - These credentials are also used for connections to the REST API.
 
 - Click OK to confirm that you are aware of the replacement of the HTTPS SSL/TLS certificate on the node, and proceed through the browser warning
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud13.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud14.png)
 
 ### Create a database
 
 - Select “redis database” and the “single region” deployment, and click Next.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud14.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud15.png)
 
 - Enter a database name such as demodb.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud15.png)
+![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud16.png)
 
 - Click Show advanced options and, in the Endpoint port number, enter 12000 for the port number.
 
