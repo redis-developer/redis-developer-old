@@ -11,7 +11,7 @@ This page explain the db creation process.
 ## Cloud
 
 <details> 
-  <summary>What is Raspberry Pi? </summary>
+  <summary> Creating Redis Cloud Account </summary>
   To get started with Redis Cloud Essential, visit https://redislabs.com/try-redis-modules-for-free and fill out the details:
 
   </table>
