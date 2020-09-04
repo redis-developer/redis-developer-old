@@ -41,9 +41,11 @@ This page explain the steo by step Redis database creation process for all the d
 
 ![My Image]({{ '/images/getting_started/recloud7.png' | url }} )
 
+
 8. Click "Activate" and wait for few seconds till it gets activated. Once fully activated, you will see the database endpoints as shown below:
 
 ![My Image]({{ '/images/getting_started/recloud8.png' | url }} )
+
 
 # Docker
 
@@ -83,6 +85,7 @@ In the web browser on the host machine, go to https://localhost:8443 to see the 
 
 ![My Image]({{ '/images/getting_started/recloud11.png' | url }} )
 
+
 - Enter your license key, if you have one. If not, click the Next button to use the trial version.
 
 ![My Image]({{ '/images/getting_started/recloud12.png' | url }} )
@@ -96,6 +99,7 @@ In the web browser on the host machine, go to https://localhost:8443 to see the 
 - Click OK to confirm that you are aware of the replacement of the HTTPS SSL/TLS certificate on the node, and proceed through the browser warning
 
 ![My Image]({{ '/images/getting_started/recloud14.png' | url }} )
+
 ### Create a database
 
 - Select “redis database” and the “single region” deployment, and click Next.
