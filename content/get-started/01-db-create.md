@@ -32,20 +32,18 @@ This page explain the steo by step Redis database creation process for all the d
 5. In the Redis Enterprise Cloud service levels, select the Redis Cloud Essentials 30MB/1 Database level
 
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud6.png)
+![My Image]({{ '/images/getting_started/recloud6.png' | url }} )
 
 6. Click Create. After you create a subscription, you can create a database:
 
 
 7.  Enter a name for the database of your choice
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud7.png)
-
+![My Image]({{ '/images/getting_started/recloud7.png' | url }} )
 
 8. Click "Activate" and wait for few seconds till it gets activated. Once fully activated, you will see the database endpoints as shown below:
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud8.png)
-
+![My Image]({{ '/images/getting_started/recloud8.png' | url }} )
 
 # Docker
 
@@ -79,46 +77,43 @@ The Docker container with RS runs on your localhost with port 8443 open for HTTP
 
 In the web browser on the host machine, go to https://localhost:8443 to see the Redis Enterprise Software web console.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud10.png)
+![My Image]({{ '/images/getting_started/recloud10.png' | url }} )
 
 - In the Node Configuration settings, enter a cluster FQDN such as cluster.local. Then click Next button.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud11.png)
-
+![My Image]({{ '/images/getting_started/recloud11.png' | url }} )
 
 - Enter your license key, if you have one. If not, click the Next button to use the trial version.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud12.png)
+![My Image]({{ '/images/getting_started/recloud12.png' | url }} )
 
 - Enter an email and password for the admin account for the web console.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud13.png)
+![My Image]({{ '/images/getting_started/recloud13.png' | url }} )
 
 - These credentials are also used for connections to the REST API.
 
 - Click OK to confirm that you are aware of the replacement of the HTTPS SSL/TLS certificate on the node, and proceed through the browser warning
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud14.png)
-
+![My Image]({{ '/images/getting_started/recloud14.png' | url }} )
 ### Create a database
 
 - Select “redis database” and the “single region” deployment, and click Next.
 
 - Enter a database name such as demodb.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud16.png)
-
+![My Image]({{ '/images/getting_started/recloud16.png' | url }} )
 
 - Click Show advanced options and, in the Endpoint port number, enter 12000 for the port number.If you cannot activate the database because of a memory limitation, make sure that Docker has enough memory allocated in the Advanced section of Docker Settings.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud18.png)
+![My Image]({{ '/images/getting_started/recloud18.png' | url }} )
 
 If port 12000 is not available, enter any available port number between 10000 to 19999 and connect to the database with that port number.
 
 
 The database configuration is shown. When you see a green check mark, the database is activated and ready for you to use.
 
-![My Image](https://github.com/ajeetraina/redis-developer/blob/master/content/get-started/images/recloud20.png)
+![My Image]({{ '/images/getting_started/recloud20.png' | url }} )
 
 You now have a Redis database!
 
