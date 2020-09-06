@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Redis-Developer/test-site.git"
+    "url": "git+https://github.com/ajeetraina/test-site.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Redis-Developer/test-site/issues"
+    "url": "https://github.com/ajeetraina/test-site/issues"
   },
   "homepage": "/test-site"
 }
