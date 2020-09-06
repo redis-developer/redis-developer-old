@@ -1,0 +1,169 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Redis Database Creation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/redis-developer/css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="/redis-developer/images/logo/logo_small.png" width=40>
+          Redis Database Creation
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div class="container marketing pt-5">
+        <h1>How to create a Redis Database</h1>
+<p>This page explain the steo by step Redis database creation process for all the different options listed below:</p>
+<h1>Cloud</h1>
+<ol>
+<li>You will have to create Redis Cloud account by visiting <a href="https://redislabs.com/try-redis-modules-for-free">link</a> below. Once you click on “Get Started”, you will receive an email with a link to activate your account and complete your signup process.</li>
+</ol>
+<p><a href="https://redislabs.com/try-redis-modules-for-free"><img src="/redis-developer/images/getting_started/recloud.png" alt=""></a></p>
+<ol start="2">
+<li>Next, you will have to add  Redis Enterprise Cloud Essentials subscription. In the Redis Enterprise Cloud menu, click Subscriptions. At the bottom of the page, click the “+” sign.</li>
+</ol>
+<p><img src="/redis-developer/images/getting_started/recloud2.png" alt="My Image"></p>
+<ol start="3">
+<li>For the cloud provider, select Amazon AWS</li>
+</ol>
+<p><img src="/redis-developer/images/getting_started/recloud3.png" alt="My Image"></p>
+<ol start="4">
+<li>For the region where you want to use the subscription, select ap-south-1. Please note that it’s currently available only in the AWS/Mumbai</li>
+</ol>
+<p><img src="/redis-developer/images/getting_started/recloud5.png" alt="My Image"></p>
+<ol start="5">
+<li>In the Redis Enterprise Cloud service levels, select the Redis Cloud Essentials 30MB/1 Database level</li>
+</ol>
+<p><img src="/redis-developer/images/getting_started/recloud6.png" alt="My Image"></p>
+<ol start="6">
+<li>
+<p>Click Create. After you create a subscription, you can create a database:</p>
+</li>
+<li>
+<p>Enter a name for the database of your choice</p>
+</li>
+</ol>
+<p><img src="/redis-developer/images/getting_started/recloud7.png" alt="My Image"></p>
+<ol start="8">
+<li>Click &quot;Activate&quot; and wait for few seconds till it gets activated. Once fully activated, you will see the database endpoints as shown below:</li>
+</ol>
+<p><img src="/redis-developer/images/getting_started/recloud8.png" alt="My Image"></p>
+<h1>Docker</h1>
+<h3>Install Docker Engine</h3>
+<p>Go to the Docker installation page for your operating system for detailed instructions about installing Docker Engine:</p>
+<h3>Linux (Ubuntu/Debian)</h3>
+<pre><code>curl -fsSL https://get.docker.com/ | sh
+</code></pre>
+<h3>MacOS</h3>
+<p>Refer https://docs.docker.com/docker-for-mac/install/ to install Docker Desktop for Mac.</p>
+<h3>Run the container</h3>
+<p>To pull and start the Redis Enterprise Software Docker container, run this docker run command in the terminal or command-line for your operating system.</p>
+<p>Note: On Windows, make sure Docker is configured to run Linux-based containers.</p>
+<pre><code>docker run -d --cap-add sys_resource --name rp -p 8443:8443 -p 9443:9443 -p 12000:12000 redislabs/redis
+</code></pre>
+<p>The Docker container with RS runs on your localhost with port 8443 open for HTTPS connections, 9443 for REST API connections, and port 12000 open for redis client connections. You can publish other ports with -p &lt;host_port&gt;:&lt;container_port&gt;.</p>
+<h3>Set up a cluster</h3>
+<p>In the web browser on the host machine, go to https://localhost:8443 to see the Redis Enterprise Software web console.</p>
+<p><img src="/redis-developer/images/getting_started/recloud10.png" alt="My Image"></p>
+<ul>
+<li>In the Node Configuration settings, enter a cluster FQDN such as cluster.local. Then click Next button.</li>
+</ul>
+<p><img src="/redis-developer/images/getting_started/recloud11.png" alt="My Image"></p>
+<ul>
+<li>Enter your license key, if you have one. If not, click the Next button to use the trial version.</li>
+</ul>
+<p><img src="/redis-developer/images/getting_started/recloud12.png" alt="My Image"></p>
+<ul>
+<li>Enter an email and password for the admin account for the web console.</li>
+</ul>
+<p><img src="/redis-developer/images/getting_started/recloud13.png" alt="My Image"></p>
+<ul>
+<li>
+<p>These credentials are also used for connections to the REST API.</p>
+</li>
+<li>
+<p>Click OK to confirm that you are aware of the replacement of the HTTPS SSL/TLS certificate on the node, and proceed through the browser warning</p>
+</li>
+</ul>
+<p><img src="/redis-developer/images/getting_started/recloud14.png" alt="My Image"></p>
+<h3>Create a database</h3>
+<ul>
+<li>
+<p>Select “redis database” and the “single region” deployment, and click Next.</p>
+</li>
+<li>
+<p>Enter a database name such as demodb.</p>
+</li>
+</ul>
+<p><img src="/redis-developer/images/getting_started/recloud16.png" alt="My Image"></p>
+<ul>
+<li>Click Show advanced options and, in the Endpoint port number, enter 12000 for the port number.If you cannot activate the database because of a memory limitation, make sure that Docker has enough memory allocated in the Advanced section of Docker Settings.</li>
+</ul>
+<p><img src="/redis-developer/images/getting_started/recloud18.png" alt="My Image"></p>
+<p>If port 12000 is not available, enter any available port number between 10000 to 19999 and connect to the database with that port number.</p>
+<p>The database configuration is shown. When you see a green check mark, the database is activated and ready for you to use.</p>
+<p><img src="/redis-developer/images/getting_started/recloud20.png" alt="My Image"></p>
+<p>You now have a Redis database!</p>
+<h1>Redis Enterprise</h1>
+<h1>From Sources</h1>
+
+      </div>
+
+
+
+
+
+          <!-- FOOTER -->
+          <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2011-2020 RedisLabs. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          </footer>
+        </main>
+    
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+      </body>
+    </html>
