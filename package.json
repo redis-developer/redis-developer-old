@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajeetraina/test-site.git"
+    "url": "git+https://github.com/ajeetraina/redis-developer.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ajeetraina/test-site/issues"
+    "url": "https://github.com/ajeetraina/redis-developer/issues"
   },
   "homepage": "/test-site"
 }
