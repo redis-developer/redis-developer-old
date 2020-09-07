@@ -17,7 +17,7 @@ This page explain the steo by step Redis database creation process for all the d
 
 2.  Next, you will have to add  Redis Enterprise Cloud Essentials subscription. In the Redis Enterprise Cloud menu, click Subscriptions. At the bottom of the page, click the “+” sign.
 
-![My Image]({{ '/images/getting_started/recloud2.png' | url | width=100 }} )
+![My Image]({{ '/images/getting_started/recloud2.png' | url  }} )
 
 3. For the cloud provider, select Amazon AWS
 
