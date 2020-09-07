@@ -9,8 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "env NODE_ENV=production npx eleventy --pathprefix 'redis-developer'",
-    "deploy": "gh-pages -d _site"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
