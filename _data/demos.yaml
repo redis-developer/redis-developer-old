@@ -1,0 +1,24 @@
+data_101_app:
+    - 
+      demo: "Connect to Redis: all languages"
+      url: "https://github.com/Redislabs-Solution-Architects/redis-connect"
+    - 
+      demo: "Getting Started with Redis Streams"
+      url: "https://github.com/tgrall/redis-streams-101-java"
+    - 
+      demo: "Getting Started with RediSearch"
+      url: "https://github.com/redis-developer/getting-started-redisearch"
+    - 
+      demo: "Redis Streams & Consumer Groups"
+      url: "https://github.com/redis-developer/redis-streams-in-action"
+  
+  data_complete_app: 
+    - 
+      demo: "Brewdis"
+      url: "https://github.com/Redislabs-Solution-Architects/brewdis"
+    - 
+      demo: "Popup Store"
+      url: "https://github.com/RedisTimeSeries/redis-pop-up-store"
+    - 
+      demo: "Microservices with Redis"
+      url: "https://github.com/tgrall/redis-microservices-demo"

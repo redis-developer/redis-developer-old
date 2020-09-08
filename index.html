@@ -1,70 +1,49 @@
 ---
 title: Redis Developer
 layout: layout.html
+
+data_101_app:
+    - 
+      demo: "Connect to Redis: all languages"
+      url: "https://github.com/Redislabs-Solution-Architects/redis-connect"
+    - 
+      demo: "Getting Started with Redis Streams"
+      url: "https://github.com/tgrall/redis-streams-101-java"
+    - 
+      demo: "Getting Started with RediSearch"
+      url: "https://github.com/redis-developer/getting-started-redisearch"
+    - 
+      demo: "Redis Streams & Consumer Groups"
+      url: "https://github.com/redis-developer/redis-streams-in-action"
+  
+data_complete_app: 
+    - 
+      demo: "Brewdis"
+      url: "https://github.com/Redislabs-Solution-Architects/brewdis"
+    - 
+      demo: "Popup Store"
+      url: "https://github.com/RedisTimeSeries/redis-pop-up-store"
+    - 
+      demo: "Microservices with Redis"
+      url: "https://github.com/tgrall/redis-microservices-demo"
+
 ---
-
-
-      
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-      <div class="container">
-        <div class="carousel-caption text-left">
-          <h1>Example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Another example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-      <div class="container">
-        <div class="carousel-caption text-right">
-          <h1>One more for good measure.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
-      <div class="container marketing pb-5">
+      <div class="container marketing">
 
 
         
           <!-- Three columns of text below the carousel -->
-          <div class="text-center h2 pb-3">
-            Getting Started with Redis
+          <div class="row">            
+            <div class="col-12">
+              <h3 class="mb-3">Getting Started with Redis</h3>    
+            </div>              
           </div>
+
           <div class="row">
             <div class="col-lg-4 h3">
               <a href="{{ '/content/get-started/01-db-create/' | url  }}">
@@ -89,7 +68,7 @@ layout: layout.html
             </a>
             </div>
             <div class="col-lg-4 h3">
-              <a href="{{'/content/get-started/03-code-application/' | url}}">
+              <a href="{{'/content/develop/' | url}}">
                 <button type="button" class="btn btn-info btn-circle btn-xl">
                 3
               </button>
@@ -100,76 +79,200 @@ layout: layout.html
             </a>
             </div>
         </div>
-          <hr>
       </div>
 
 
+ <div class="row mb-5">            
+  <div class="col-12">
+  </div>              
+</div>
+<hr>
 
-      <div class="container marketing">
+<div class="row">            
+          <div class="col-12">
+            <h3 class="mb-3">Choose Your Programming Language</h3> 
+            Find documentation, sample code ad tools to develop with your favorite language.  
+          </div>              
+        </div>
 
-        <!-- Three columns of text below the carousel -->
+        <div class="row mt-2">
+          <div class="col-lg-1">
+          </div>  
+    
+          <div class="col-lg-2">
+            <img src="{{ '/images/logo/java.png' | url }}" width="80">
+          </div>  
+          <div class="col-lg-2">
+            <img src="{{ '/images/logo/python.png' | url }}" width="80">
+          </div>  
+
+          <div class="col-lg-2">
+            <img src="{{ '/images/logo/nodejs.png' | url }}" width="80">
+          </div>  
+
+          <div class="col-lg-2">
+            <img src="{{ '/images/logo/golang.png' | url }}" width="80">
+          </div>  
+
+          <div class="col-lg-2">
+            <img src="{{ '/images/logo/csharp.png' | url }}" width="100">
+          </div>  
+
+          <div class="col-lg-1"></div>  
+        </div>
+
+
+
+<div class="mb-5">
+  <div class="row mb-5">            
+    <div class="col-12">
+    </div>              
+  </div>
+  <hr>
+
+          <!-- Blogs, Videos, and Pocasts -->
+          <div class="row">            
+            <div class="col-12">
+              <h3 class="mb-3">Samples and Demonstrations</h3> 
+            </div>              
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="h5">
+                <img src="{{ 'images/logo/logo_small.png' | url }}" height="25" />
+                Redis 101
+              </div>
+              <ul>
+                {% for item in data_101_app %}
+                  <li><a href="{{item.url}}" >{{item.demo}}</a></li>
+                {% endfor %}
+              </ul>
+            </div>              
+
+
+            <div class="col-6">
+              <div class="h5">
+                <img src="{{ 'images/logo/logo_small.png' | url }}" height="25" />
+                Complete Applications
+              </div>
+              <ul>
+                {% for item in data_complete_app %}
+                 <li><a href="{{item.url}}" >{{item.demo}}</a></li>
+                {% endfor %}
+              </ul>
+            </div>  
+          </div>
+
+</div>  
+
+
+
+
+      <div class="mb-5 mt-5">
+        <div class="row mb-5">            
+          <div class="col-12">
+          </div>              
+        </div>
+        <hr>
+
+        <!-- Blogs, Videos, and Pocasts -->
+        <div class="row">            
+          <div class="col-12">
+            <h3 class="mb-3">Blogs, Videos, and Pocasts</h3> 
+          </div>              
+        </div>
+
         <div class="row">
+
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded" src="https://redislabs.com/wp-content/uploads/2020/08/ajeet-top-5-hero-270x191-v2.png" alt="Generic placeholder image" width="240">
+            <div>
+              Featured Blog<br/> <a href="https://redislabs.com/blog/top-5-reasons-to-choose-redis-enterprise-cloud-over-amazon-elasticache/">How Redis Enterprise Cloud Meets the Needs of Maturing Enterprise Customers On AWS</a>.
+            </div>
+
+            <div class="mt-4"> 
+              <a class="btn btn-secondary" href="https://redislabs.com/blog/tech-blog/" role="button">Tech Blog &raquo;</a>
+            </div>
+
           </div><!-- /.col-lg-4 -->
+
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading 2</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded" src="https://redislabs.com/wp-content/uploads/2019/04/redis-keys-1.png" alt="Generic placeholder image" width="240">
+            <div>
+              Featured Webinar<br/> <a href="https://www.youtube.com/watch?v=CRGPbCbRTHA&list=PL83Wfqi-zYZE0duA4cMp7_0wOvYbtFgZs&index=3">Intro to Redis Commands and Data Structures</a>              
+              <br>
+              <br>
+            </div>
+            <div class="mt-4"> 
+              <a class="btn btn-secondary" href="https://redislabs.com/tech-talks/" role="button">More Videos &raquo;</a>
+            </div>
+
           </div><!-- /.col-lg-4 -->
+
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded" src="https://redislabs.com/wp-content/uploads/2020/03/redis-stars-banner-1.jpg" alt="Generic placeholder image" width="240" >
+            <div>
+              Featured Podcast<br/> <a href="https://redisstars.simplecast.com/episodes/rapido">Srivatsa Katta | Redis usage at Rapido</a>
+            </div>
+
+            <div class="mt-4"> 
+              <a class="btn btn-secondary" href="https://redisstars.simplecast.com/episodes" role="button">More Podcasts &raquo;</a>
+            </div>          
           </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
 
 
-        <!-- START THE FEATURETTES -->
+        </div>
+        <!-- //Blogs, Videos, and Pocasts -->
 
-        <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="mb-5 mt-5">
+          <div class="row mb-5">            
+            <div class="col-12">
+            </div>              
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
+          <hr>
+        <!-- Community -->
+        <div class="row">            
+          <div class="col-12">
+            <h3 class="mb-3">Community</h3> 
+          </div>              
         </div>
 
-        <hr class="featurette-divider">
+        <div class="row">
 
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
+          <div class="col-lg-4">
+            <a href="https://forum.redislabs.com/" >
+              
+              <img class="rounded" src="{{ '/images/community/community-forums-screenshot.png' | url }}" alt="Generic placeholder image" width="240">
+              <div>
+                Discussion Forums
+              </div>
+            </a>
+        </div><!-- /.col-lg-4 -->
+
+
+          <div class="col-lg-4">
+            <a href="https://launchpass.com/rediscommunity" >
+            <img class="rounded" src="{{ '/images/community/community-group-people.png' | url }}" alt="Generic placeholder image" width="240">
+            <div>
+              Community Slack
+            </div>
+            </a>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-4">
+            <a href="https://redislabs.com/community/events" >
+
+            <img class="rounded" src="{{ '/images/community/community-meet-events.png' | url }}" alt="Generic placeholder image" width="240">
+            <div>
+              Meetup, User Groups and Conferences
+            </div>
+          </div><!-- /.col-lg-4 -->
+
         </div>
+        <!-- /Community -->
 
-        <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->

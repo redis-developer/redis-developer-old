@@ -1,5 +1,5 @@
 ---
-layout: layout_content.html
+layout: layout.html
 title: Redis Database Creation
 ---
 

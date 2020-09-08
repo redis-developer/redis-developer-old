@@ -16,14 +16,14 @@ title: Redis Developer
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{'/css/carousel.css' | url }}" rel="stylesheet">
+    <link href="{{'/css/redis-developer.css' | url }}" rel="stylesheet">
   </head>
   <body>
 
     
     <header>
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
         <a class="navbar-brand" href="#">Fixed navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,17 +49,70 @@ title: Redis Developer
     </header>
 
 
-    <main role="main" class="container">
-      {{ content }}
-    </main> 
+
+    
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-md-3 col-xl-2 bd-sidebar">
+
+        <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Main navigation"><div class="bd-toc-item active">
+            <a class="bd-toc-link" href="{{ '/' | url  }}">
+              Home
+            </a>
+
+        <ul class="nav bd-sidenav">
+          <li class="active bd-sidenav-active">
+            <a class="bd-toc-link" href="{{ '/content/develop/' | url  }}">
+              Develop
+            </a>
+          </li>
+          <li>
+            <a href="{{ '/content/develop/java' | url  }}">Java</a>
+          </li>
+          <li>
+            <a href="{{ '/content/develop/python' | url  }}">Python</a>
+          </li>
+          <li>
+            <a href="{{ '/content/develop/nodejs' | url  }}">Node.js</a>
+          </li>
+          <li>
+            <a href="{{ '/content/develop/dotnet' | url  }}">C#/.Net</a>
+          </li>
+          <li>
+            <a href="{{ '/content/develop/golang' | url  }}">Go</a>
+          </li>
+          <li>
+            <a href="{{ '/content/develop/' | url  }}">Others</a>
+          </li>
+        </ul>
+    </div>
+
+    
+    <div class="bd-toc-item">
+      <a class="bd-toc-link" href="{{ '/about' | url  }}">
+        About
+      </a>
+
+    </div></nav>
+
+        </div>
 
 
+        
 
-          <!-- FOOTER -->
-          <footer class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2011-2020 RedisLabs. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-          </footer>
+        <main class="col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          
+          {{content}}
+
+        </main>
+
+      </div>
+
+
+    </div>
+
+
 
           
         <!-- Bootstrap core JavaScript
