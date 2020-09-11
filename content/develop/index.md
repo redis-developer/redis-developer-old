@@ -7,12 +7,14 @@ title: Develop for Redis
 <summary> Using Python
 </summary>
 
-The below python code insert a key("foo") with a value("bar") directly to the redis server
-Copy the below code and save it in a file called foobar.py
-
 ## Pre-requisite
 
 - Ensure that you have Python installed on your system.
+
+The below python code insert a key("foo") with a value("bar") directly to the redis server
+Copy the below code and save it in a file called foobar.py
+
+
 
 ```
 import redis
@@ -25,7 +27,7 @@ print(r.get('foo'))
 ```
 
 
-Execute the python code
+- Execute the python code
 
 ```
 python foobar.py
