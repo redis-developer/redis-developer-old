@@ -9,7 +9,7 @@ This page explain the steo by step Redis database creation process for all the d
 
 
 
-# Cloud
+# Using Cloud
 
 1. You will have to create Redis Cloud account by visiting [link](https://redislabs.com/try-redis-modules-for-free) below. Once you click on “Get Started”, you will receive an email with a link to activate your account and complete your signup process.
 
@@ -47,11 +47,12 @@ This page explain the steo by step Redis database creation process for all the d
 ![My Image]({{ '/images/getting_started/recloud8.png' | url }} )
 
 
-# Docker
+# Using Docker
 
 ### Pre-requisite
 
-- Ensure that Docker is installed in your system. Refer https://docs.docker.com/docker-for-mac/install/ to install Docker on Mac. 
+- Ensure that Docker is installed in your system. 
+If you're new, refer https://docs.docker.com/docker-for-mac/install/ to install Docker on Mac. 
 
 ### Run the container
 
@@ -113,10 +114,51 @@ You now have a Redis database!
 
 
 
-# Redis Enterprise
+# Using Redis Enterprise
+
+## Install Redis Enterprise Software 
+
+You can download the binaries from the [Redis Enterprise Download Center](https://www.redislabs.com/redis-enterprise-software/download-center/software/) and copy the download package to machine with a Linux-based OS. To untar the image:
+
+```
+tar vxf <downloaded tar file name>
+```
+
+Once the tar command completes, install RS with the install.sh script in the current directory.
+
+```
+sudo ./install.sh -y
+```
+
+## Setting up a cluster 
+
+In the web browser on the host machine, go to https://localhost:8443 to see the Redis Enterprise Software web console.
+
+Note: Depending on your browser, you may see a certificate error. You can safely continue to the web console.
+If you see an error from nginx, try again after a few minutes.
+Click Setup to start the node configuration steps.
+
+![My Image]({{ '/images/getting_started/recloud21.png' | url }} )
+
+In the Node Configuration settings, enter a cluster FQDN such as cluster.local. Then click Next button.
+
+Enter your license key, if you have one. If not, click the Next button to use the trial version.
+
+Enter an email and password for the admin account for the web console.
+
+These credentials are also used for connections to the REST API.
+
+Click OK to confirm that you are aware of the replacement of the HTTPS SSL/TLS certificate on the node, and proceed through the browser warning.
+
+## Create a database 
+
+Select “redis database” and the “single region” deployment, and click Next.
+
+Enter a database name such as database1 and click Activate to create your database.
+
+You now have a Redis database!
 
 
-# From Sources
 
 
 
