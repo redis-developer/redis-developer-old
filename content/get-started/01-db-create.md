@@ -49,19 +49,9 @@ This page explain the steo by step Redis database creation process for all the d
 
 # Docker
 
-### Install Docker Engine
+### Pre-requisite
 
-Go to the Docker installation page for your operating system for detailed instructions about installing Docker Engine:
-
-### Linux (Ubuntu/Debian)
-
-```
-curl -fsSL https://get.docker.com/ | sh
-```
-
-### MacOS 
-
-Refer https://docs.docker.com/docker-for-mac/install/ to install Docker Desktop for Mac.
+- Ensure that Docker is installed in your system. Refer https://docs.docker.com/docker-for-mac/install/ to install Docker on Mac. 
 
 ### Run the container
 
