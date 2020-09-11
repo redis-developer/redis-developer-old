@@ -82,7 +82,7 @@ Run the below command to connect to Redis database
 
 
 redis-cli -h <host> -p <port>
-</details>
+
 
 ```
 % redis-cli -h 192.168.43.160 
@@ -109,7 +109,7 @@ lru_clock:5985991
 executable:/data/redis-server
 config_file:
 ```
-
+</details>
 <details><summary>
 2. Import a Dataset
 </summary>
