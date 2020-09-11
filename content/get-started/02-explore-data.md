@@ -9,7 +9,7 @@ Explore your data with Redis Insight
 
 1. Connect to Redis
 
-<detail>
+<details>
 <summary> Using RedisInsight
 </summary>
 
@@ -46,12 +46,10 @@ Head over to your web browser and open http://localhost:8001
 Congratulations! You have successfully installed RedisInsight and now ready to inspect your Redis data, monitor health, and perform runtime server configuration with a browser-based management interface for your Redis deployment.
 
 Once you accept EULA and click “Confirm”, you are ready to add Redis Databases as shown below:
-
-![My Image]({{ '/images/getting_started/recloud300.png' | url  }} )
-
 Choose “Add Database”.
 
 ![My Image]({{ '/images/getting_started/recloud301.png' | url  }} )
+
 
 Enter details like name, host(endpoint), port and password. You can skip username as of now.
 
@@ -64,7 +62,9 @@ Click “Add Redis Database”.
 
 Click on the Box and you shall be able to see the RedisInsight dashboard for the first time.
 
+![My Image]({{ '/images/getting_started/recloud304.png' | url  }} )
 
+</details>
 
 
 
