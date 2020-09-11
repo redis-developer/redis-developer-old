@@ -3,11 +3,15 @@ layout: layout.html
 title: Redis Insight
 ---
 
+
 # Explore the data
 
 Explore your data with Redis Insight
 
-1. Connect to Redis
+
+<details><summary>
+Connect to Redis
+</summary>
 
 <details><summary> 
 Using RedisInsight
@@ -65,6 +69,19 @@ Click on the Box and you shall be able to see the RedisInsight dashboard for the
 ![My Image]({{ '/images/getting_started/recloud304.png' | url  }} )
 
 </details>
+
+<details><summary>
+Using RedisCLI
+</summary>
+
+## Pre-requisite
+
+Ensure that Redis CLI client software is installed by using the below command:
+
+Run the below command to connect to Redis database
+
+```
+redis-cli -h <host> -p <port>
 
 
 
