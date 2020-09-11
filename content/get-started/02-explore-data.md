@@ -10,9 +10,9 @@ Explore your data with Redis Insight
 
 
 <details><summary>
-Connect to Redis
+1. Connect to Redis
 </summary>
-
+<br>
 <details><summary> 
 Using RedisInsight
 </summary>
@@ -71,7 +71,7 @@ Click on the Box and you shall be able to see the RedisInsight dashboard for the
 </details>
 
 <details><summary>
-Using RedisCLI
+- Using RedisCLI
 </summary>
 
 ## Pre-requisite
@@ -110,7 +110,7 @@ executable:/data/redis-server
 config_file:
 ```
 </details>
-
+<br>
 <details><summary>
 2. Import a Dataset
 </summary>
