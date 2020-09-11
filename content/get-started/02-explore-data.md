@@ -9,8 +9,8 @@ Explore your data with Redis Insight
 
 1. Connect to Redis
 
-<details>
-<summary> Using RedisInsight
+<details><summary> 
+Using RedisInsight
 </summary>
 
 RedisInsight provides an intuitive and efficient GUI for Redis, allowing you to interact with your databases and manage your data—with built-in support for most popular Redis modules. It provides tools to analyze the memory, profile the performance of your database usage, and guide you toward better Redis usage.
@@ -68,16 +68,6 @@ Click on the Box and you shall be able to see the RedisInsight dashboard for the
 
 
 
-
-
-
-
-
-
-
-
-
-
-<detail><summary>
 2. Import a Dataset
-</summary>
+
+
