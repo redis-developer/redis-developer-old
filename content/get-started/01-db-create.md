@@ -5,7 +5,7 @@ title: Redis Database Creation
 
 # How to create a Redis Database 
 
-This page explain the steo by step Redis database creation process for all the different options listed below:
+This page explain the step by step Redis database creation process for all the different options listed below:
 
 
 <details><summary>
