@@ -80,11 +80,38 @@ Ensure that Redis CLI client software is installed by using the below command:
 
 Run the below command to connect to Redis database
 
-```
+
 redis-cli -h <host> -p <port>
+</details>
 
+```
+% redis-cli -h 192.168.43.160 
+192.168.43.160:6379> info server
+# Server
+redis_version:6.0.1
+redis_git_sha1:00000000
+redis_git_dirty:0
+redis_build_id:5ca5d79ba0098212
+redis_mode:standalone
+os:Linux 4.19.76-linuxkit x86_64
+arch_bits:64
+multiplexing_api:epoll
+atomicvar_api:atomic-builtin
+gcc_version:8.3.0
+process_id:1
+run_id:5d5a9ab7448d40d7b37749b6d1b2172ddea57b07
+tcp_port:6379
+uptime_in_seconds:6900
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:5985991
+executable:/data/redis-server
+config_file:
+```
 
-
+<details><summary>
 2. Import a Dataset
-
+</summary>
+</details>
 
