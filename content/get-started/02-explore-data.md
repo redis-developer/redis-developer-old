@@ -12,6 +12,7 @@ Explore your data with Redis Insight
 <details><summary>
 1. Connect to Redis
 </summary>
+
 <br>
 <details><summary> 
 Using RedisInsight
@@ -111,6 +112,7 @@ config_file:
 ```
 </details>
 <br>
+
 <details><summary>
 2. Import a Dataset
 </summary>
