@@ -47,24 +47,24 @@ Congratulations! You have successfully installed RedisInsight and now ready to i
 
 Once you accept EULA and click “Confirm”, you are ready to add Redis Databases as shown below:
 
-![My Image]({{ '/images/getting_started/recloud301.png' | url  }} )
+![My Image]({{ '/images/getting_started/recloud300.png' | url  }} )
 
 Choose “Add Database”.
 
-![My Image]({{ '/images/getting_started/recloud302.png' | url  }} )
+![My Image]({{ '/images/getting_started/recloud301.png' | url  }} )
 
 Enter details like name, host(endpoint), port and password. You can skip username as of now.
 
-![My Image]({{ '/images/getting_started/recloud303.png' | url  }} )
+![My Image]({{ '/images/getting_started/recloud302.png' | url  }} )
 
 Click “Add Redis Database”.
 
-![My Image]({{ '/images/getting_started/recloud304.png' | url  }} )
+![My Image]({{ '/images/getting_started/recloud303.png' | url  }} )
 
 
 Click on the Box and you shall be able to see the RedisInsight dashboard for the first time.
 
-![My Image]({{ '/images/getting_started/recloud305.png' | url  }} )
+
 
 
 
